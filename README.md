@@ -4,19 +4,12 @@ This is a template for writing assignments/homework. It is suitable for computer
 ## Main Features
 
 - Modular structure.
-
 - Dingbat lists.
-
 - Fontawesome.
-
 - Cover page.
-
 - Note box.
-
 - Hyperlinked table of content.
-
 - Metadata injected in the produced PDF document.
-
 - Grading scheme table.
 
 ![Cover page](screenshots/cover-page.png)  ​

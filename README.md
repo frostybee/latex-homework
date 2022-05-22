@@ -14,7 +14,7 @@ This is a template for writing assignments/homework. It is suitable for Computer
 - Hyperlinked table of content.
 - Metadata injected in the produced PDF document.
 - Grading scheme table.
-
+## Screenshots
 ![Cover page](screenshots/cover-page.png)  ​
 ![Fontawesome and information box](screenshots/notes-fontawesome.png)  ​
 

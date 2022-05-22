@@ -8,7 +8,7 @@ This is a template for writing assignments/homework. It is suitable for Computer
 
 - Modular structure.
 - Dingbat lists.
-- Fontawesome.
+- Font Awesome.
 - Cover page.
 - Note box.
 - Hyperlinked table of content.

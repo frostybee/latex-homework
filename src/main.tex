@@ -1,0 +1,203 @@
+% !TeX spellcheck = en_US
+\documentclass[11pt, a4paper]{article}
+
+% Set the title of the current document to be produced.
+\newcommand{\doctitle}{Programming Assignment I}
+% Command for the due date of the homework.
+\newcommand{\duedate}{\color{rltred}{\faCalendarCheckO { }Due date: May 1st, before midnight \faCalendarCheckO	}}
+
+%------------------------------------------------------------
+% Import commands for both teacher and course information.  | 
+% NOTE: Change your teacher and course info in these files. |
+%------>------>------>------>------>------>------>------>-->|
+\input{includes/teacher-info}                              %|
+\input{includes/course-info}                               %|   
+%
+%------------------------------------------------------------
+%-- Import packages and custom command definitons.          |
+%------>------>------>------>------>------>------>------>-->|
+\input{includes/packages}                                  %|  
+\input{includes/custom-commands}   
+%
+%---> Genereate & inject metadata describing                |
+%     the produced document                                 |
+\input{includes/metadata}                                  %|
+%------------------------------------------------------------
+
+\topmargin      -60pt
+
+%-----------------------------------------------------------
+% Uncomment the following if you want to insert a watermark! 
+%
+%--> Watermark package settings: 
+%\usepackage{draftwatermark}
+%\SetWatermarkText{DRAFT}
+%\SetWatermarkScale{0.5}
+%\SetWatermarkColor[gray]{0.8}
+%-------------------------------------------------
+
+\begin{document} 
+    
+%-------------------------------------------------------------
+%-- Make the header of the document                          |
+%------>------>------>------>------>------>------>------>--> |
+\input{includes/document-header}
+
+\hrule width0.3\textwidth
+\newcommand{\revisionhistoryafive}{
+    \centering \vhEntry{1.0}{Feb 09, 2022}{S.R.}{Initial handout.}     
+    \centering \vhEntry{1.1}{Feb 16, 2022}{S.R.}{Added the main character section.}     
+    \centering \vhEntry{2.0}{Feb 19, 2022}{S.R.}{Modified and added new requirements in all sections.}     
+}
+\begin{versionhistory}
+    \revisionhistoryafive
+\end{versionhistory}
+\hrule
+\vskip .3in
+%
+\tableofcontents
+
+\clearpage
+    
+\section{Learning Objectives}      
+\label{sec:objectives}    
+\noindent 3D game design, HUD and in-game UI, working with multiple scenes, physics, Unity scripting with C\#, collision detection, using prefabs \& 3D arts, sound and visual effects as well as 3D animation, humanoid character and animation rigging. 
+
+\section{Notes and Constraints}       
+\label{sec:notes}    
+\vspace{-.1cm}
+
+\begin{minipage}{\linewidth}
+\begin{bclogo}[couleur=gray!15, arrondi=0.1, logo=\bccrayon, ombre=true]{Note the following:}
+   This is a thing to consider. \\
+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra sollicitudin. Praesent imperdiet mi nec ante
+\end{bclogo}
+\end{minipage}
+
+
+\begin{coloredPen}
+    \item This assignment must be done individually.  
+    \item Do not plagiarize.
+    \item Do not do this.
+    \item Do not do this.
+    \item Do not do that. 
+\end{coloredPen}
+    
+\section{Required Software and Tools }  
+\label{sec:requiredsw}    
+\begin{itemize}[itemsep=2pt,parsep=0pt,topsep=2pt,partopsep=2pt]
+    %    \item[\color{darkblue}\faCoffee] Java 7 or 8 (32 or 64 bits)
+    \item[\color{darkblue}\faLaptopCode] \textbf{Operating system:} \faWindows {} Windows  10,  \faLinux {} Linux, \textcolor{vanierred}{\textbf{or}} \faApple {} macOS 
+    \item[\color{darkblue}\faCode] \textbf{IDE \& Game Engine:} \faUnity Unity \textcolor{vanierred}{2020.3 (LTS)} \textcolor{darkblue}{\&} Visual Studio \textcolor{vanierred}{2019} (Community Edition)
+    \item [{\color{darkblue}\faChrome}] Web Browser: Google Chrome.   
+    \item[{\color{darkblue} \faWpforms}] Markdown for writing documentation.
+    \item[{\color{darkblue} \faGitSquare}] Distributed version control system.
+    \item[{\color{darkblue} \faBitbucket}] Bitbucket: a web-based version control repository hosting service.
+    \item[{\color{darkblue} \faTrello}] Trello: a Web-based project management system.
+    
+    \item[\color{darkblue}\faUsb]
+    A storage medium (a USB flash memory or any online free storage service such as GDrive or OneDrive) for storing and backing up your files. 
+\end{itemize}   
+
+\section{Problem Statement}       
+\label{sec:intro}    
+\vspace{-.1cm}
+\noindent In this assignment, you are required to design and implement...\\
+\noindent \blindtext
+\noindent Additional details and requirements are provided in the following sections.
+          
+    \section{Requirements}       
+    \label{sec:requirements}    
+    \vspace{-.1cm}
+    \noindent You must be heedful of the requirements stated in the following sections. 
+    
+    \subsection{User Interfaces \& Game Menu}
+    \label{sec:hudui}
+    \noindent Your HUD, main menu and in-game panels (or other UI controls) must be implemented using the \href{https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html}{Unity UI toolkit}.
+    \subsubsection{HUD}
+    \label{sec:hudD}
+    \noindent You must implement an in-game HUD that fulfills the following requirements:
+    \begin{borderedsquare}
+        \item Requirement 1.
+        \item Requirement 2.
+        \item Requirement 3.
+        \item Requirement 4.
+        \item etc...
+    \end{borderedsquare}
+
+\noindent {\color{rltblue}\large\bfseries\faBook} \space \textbf{Additional Resources}:
+
+\begin{filledRightArrowList}
+    \item Resource 1. 
+    \item Resource 2. 
+    \item Resource 3. 
+    \item Resource 4. 
+\end{filledRightArrowList}
+    
+    \subsubsection{Main Menu \& Player Feedback}
+    \label{sec:mainmenu}
+    \begin{filledstarlist}
+        \item Implement this... 
+        \item Implement this... 
+        \item And implement that...         
+    \end{filledstarlist}
+    
+    \subsection{Game Deployment}
+    \label{sec:publish}
+    You are required to publish your game implementation to...  
+    
+    \subsection{Game Implementation Requirements}
+    \label{sec:implementation}
+    Your game implementation must include the usage of:
+    \begin{alphalist}
+        \item 3D scenes.
+        \item This requirement.
+        \item And that requirement.
+        \item Scripting:
+        \begin{greenrectangles}
+            \item Main character control, animation and movement
+            \item Collision detection
+        \end{greenrectangles}
+        \item Animations: mainly for the main character. 
+        \item Different visual effects (VFX), etc...
+    \end{alphalist}    
+\clearpage
+\section{Evaluation Criteria}
+\label{sec:evaluation}
+\noindent Your assignment will be evaluated based on the following criteria:\\
+
+\renewcommand{\arraystretch}{1.5} % this reduces the vertical spacing between rows    
+\begin{tabular}{|p{14cm}|c|}
+    \hline    
+    \thead{\color{darkblue}  Criteria} |& \thead{\color{darkblue}Mark} \\ 
+    \hline
+    Game world design.    & 5\% \\      
+    \hline
+    Good programming and logging practices.    & 2\% \\      
+    \hline 
+    Relevance and accuracy of the source code documentation as instructed. & 3\% \\
+    \hline
+      Correctness and functionality of the implementation. & 60\% \\
+    \hline
+    Compliance of the implementation with the stated requirements. & 15\% \\
+    \hline
+    Programming style, etc... & 5\% \\
+    \hline 
+    Overall comprehension of the submitted source code. & 10\% \\	
+    \hline 
+    \textbf{Total}    & \textbf{100\%} \\
+    \hline
+\end{tabular}
+    
+%\clearpage
+    
+\section{What to Submit}
+\label{sec:submit}
+\noindent You must submit: 1) a PDF containing a list of references as instructed above; and 2) your Unity project. 
+\begin{borderedsquare}		
+    \item Remove the \textit{\color{violet}{Library, Temp and Builds folders}} from your Unity project.
+    \item Create a folder and place in it your references document and your Unity project. 
+    \item Compress the folder you just created and upload it to LÉA.
+\end{borderedsquare}
+    
+\end{document} 

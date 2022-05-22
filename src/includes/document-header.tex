@@ -1,0 +1,36 @@
+%--------------------------------------------------------------------------
+%- The following produces the document header including the title.        |
+%- The document header includes: the college/university name, faculty,    |
+%  department, course number and title as well as the assignment/homework | 
+%  title and due date.                                                    | 
+%-------------------------------------------------------------------------|
+%
+\noindent % <-- need to have this first.
+%
+\begin{minipage}{.40\textwidth}
+    {\color{darkred} \faSchool} { \textsc{\college}}{ } {\color{darkred} \faSchool}\\ 
+    \small\textsc{ Faculty of Science \& Technology}\\%
+    \small\textsc{Computer Science Technology}
+\end{minipage}%
+\hfill	
+\begin{minipage}{0.60\textwidth}%
+    \raggedleft%
+    {\Large \textsc{\coursenumber { } \coursetitle}\par}
+    \doublerule % insert a double rule.
+    \textsc{Teacher}: \instructor\\
+\end{minipage}%
+\vspace{2.8cm}
+{
+    %--> Insert homework title and due date.
+    \hrule\vspace{.2cm}
+    \centering
+    {\scshape 
+        \Large \color{darkestblue}{\doctitle}{ }\textemdash{ }\small\bfseries\textsc{\semester}\par}
+    \vspace{.3cm}    
+}
+{
+    \hrule\vspace{.3cm}
+    \centering  \small\duedate \\ 
+
+}    
+\vspace{3.5cm}

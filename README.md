@@ -1,6 +1,9 @@
 # LaTeX Assignment/Homework Template
 This is a template for writing assignments/homework. It is suitable for computer science university/college students and features a modular design, fontawesome, dingbat lists, and a grading scheme table.
 
+## Working Examples
+* [Assignment example](examples/Assignment-Example.pdf)
+
 ## Main Features
 
 - Modular structure.
@@ -15,8 +18,6 @@ This is a template for writing assignments/homework. It is suitable for computer
 ![Cover page](screenshots/cover-page.png)  ​
 ![Fontawesome and information box](screenshots/notes-fontawesome.png)  ​
 
-## Working Examples
 
-* [Assignment example](examples/Assignment-Example.pdf)
 
 

@@ -1,4 +1,4 @@
-# latex-homework
+# LaTeX Assignment/Homework Template
 This is a template for writing assignments/homework. It is suitable for computer science university/college students and features a modular design, fontawesome, dingbat lists, and a grading scheme table.
 
 ## Main Features
